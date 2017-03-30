@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>第四天的练习</title>
+		<style type="text/css">
+			.new{
+				color: #fff;
+				background: red;
+			}
+			.icon{
+                height: 200px;
+                margin: 0;
+                padding: 0;
+                border-bottom: 1px solid red;
+                
+                /*display: block;*/
+               /*vertical-align: middle;*/
+              float: left;
+            }
+            ul li{
+            	/*font-size: 0px;*/
+            	overflow: hidden;
+            }
+            ul{
+                border: 1px solid blue;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+		</style>
+	</head>
+	<body>
+		<font class="font">
+			<strong><em>字体</em></strong>
+		</font>
+		<section title="明白">
+			你好
+		</section>
+		<select>
+			<option>时间</option>
+			<option>金钱</option>
+			<option>美女</option>
+			<option>权利</option>
+		</select>
+		<!--mark有默认的样式，也可以单独设置样式，不换行-->
+		<p>
+			这只是想说<mark style="color: red;background: forestgreen;">你是大傻子</mark>
+		</p>
+		<!--span标签没有默认的样式，需要配合css使用，来设置样式。同div差不多，无语义，短标签，不换行-->
+		<p>展示一下<span class="new">新标<ruby>签</ruby></span></p>
+		<figure style="width: 100%;">
+			<figcaption style="margin: 0 auto;width: 100%;text-align: center;">快速报价</figcaption>
+			<img src="img/banner.jpg" />
+		</figure>
+		<div>
+			<time pubdate="true" datetime="2017/03/13">2017-03-13</time><br>
+			<time datetime="2008-08-08"></time>
+		</div>
+		<section>
+			<video controls>
+			    <source src=""></source>
+		    </video>
+		    <audio controls="controls">
+		    	<source src="">
+		    </audio>
+		</section>
+		<embed src="http://127.0.0.1:8020/day01/ex01.html" tppabs="http://127.0.0.1:8020/day01/ex01.html"><br>
+	    <meter value="5" min="0" max="10">5</meter>
+	    <meter value="0.6"></meter>
+	    <br><br>
+	    <ul>
+	    	<li><img class="icon" src="img/banner.jpg"/></li>
+	    </ul>
+	</body>
+</html>

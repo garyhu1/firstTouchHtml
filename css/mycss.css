@@ -1,0 +1,53 @@
+div{
+	float: left;
+	margin-left: 10px;
+	width: 320px;
+	height: 200px;
+	border: 1px black solid;
+	margin-top: 10px;
+}
+p{
+	/*width: 50px;
+	height: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;*/
+}
+*{
+	list-style: none;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+#banner{
+	width: 100%;
+	height: 100%;
+}
+.my_list{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	float: left;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	color: red;
+}
+.my_list li{
+	float: left;
+	border: 1px black solid;
+	border-radius: 50%;
+	background: darkkhaki;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 30px;
+	color: red;
+}
+.p1{
+	/*font-style: oblique;//文本倾斜显示*/
+	font-style: italic;//文本斜体显示
+	font-family: arial;
+	font-size: 500;
+	text-indent: -50px;
+}

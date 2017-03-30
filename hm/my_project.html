@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>项目初试</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.my_text table{
+				margin-left: 30px;
+				margin-top: 30px;
+			}
+			td{
+				width: 100px;
+				text-align: center;
+				padding: 10px;
+			}
+			.my_form form{
+				margin-left: 30px;
+				margin-top: 30px;
+			}
+			input{
+				margin-bottom: 10px;
+				/*padding-right: 10px;*/
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="my_text">
+			<table border="1" cellspacing="0">
+				<tr>
+					<td colspan="2">姓名</td>
+					<td colspan="2">胡伟伟</td>
+					<td colspan="2">年龄</td>
+					<td colspan="2">25</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan="2">职位</td>
+					<td colspan="2" rowspan="2">开发工程师</td>
+					<td colspan="2">工龄</td>
+					<td colspan="2">3</td>
+				</tr>
+				<tr>
+					<td colspan="2">爱好</td>
+					<td colspan="2">篮球</td>
+				</tr>
+			</table>
+		</div>
+		<div class="my_form">
+			<!-- 输入框-->
+			<form>
+				First name
+				<input type="text" name="firstName"/><br />
+				Age
+				<input type="number" name="age" /><br />
+			</form>
+			<!-- 单选框-->
+			<form>
+				<input type="radio" name="sex" value="male" />Male
+				<br />
+				<input type="radio" name="sex" value="female" />Female
+				<br />
+			</form>
+			<!-- 复选框-->
+			<form>
+				<input type="checkbox" name="bike" />
+				I want to buy a bike<br />
+				<input type="checkbox" name="car" />
+				I have a little car
+				<br />
+			</form>
+		</div>
+	</body>
+</html>
